@@ -1,0 +1,17 @@
+@tailwind base;
+
+@layer base {
+  body {
+    @apply font-inter;
+  }
+}
+
+/* custom.css */
+.ant-tooltip-inner {
+  background-color: #CFF53E !important; /* Đổi màu nền của tooltip */
+  color: black !important; /* Đổi màu chữ */
+}
+
+.ant-tooltip-arrow-content {
+  background-color: #CFF53E !important; /* Đổi màu nền của mũi tên tooltip */
+}
